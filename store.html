@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print & Packaging Store | Premadasa Print Solutions Qatar</title>
+  <meta name="description" content="Order business cards, luxury packaging, brochures, DTF apparel, rubber stamps, and signage online in Qatar. Fast WhatsApp dispatch.">
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="canonical" href="https://premadasaprintsolutions.com/store.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Ambient CMYK Canvas Background -->
+  <div class="ambient-bg" aria-hidden="true">
+    <canvas id="inkCanvas"></canvas>
+    <div class="glow-orb glow-orb-cyan"></div>
+    <div class="glow-orb glow-orb-magenta"></div>
+    <div class="noise-overlay"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-nav" id="top">
+    <div class="nav-container">
+      <a class="brand-link" href="index.html" aria-label="Premadasa Print Solutions Home">
+        <img class="brand-logo-img" src="assets/premadasa-logo.png" alt="Premadasa Print Solutions">
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a class="nav-item-link" href="index.html">Home</a></li>
+          <li><a class="nav-item-link" href="index.html#services">Services</a></li>
+          <li><a class="nav-item-link active" href="store.html">Store Catalog</a></li>
+          <li><a class="nav-item-link" href="index.html#vcard-studio">3D V-Card</a></li>
+          <li><a class="nav-item-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn-nav-quote" href="https://wa.me/97470283355" target="_blank" rel="noopener">
+          <span>WhatsApp Help</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-laser-line" aria-hidden="true"></div>
+  </header>
+
+  <main style="padding-top: 140px; min-height: 80vh;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Online Print Catalog</div>
+        <h1 class="section-title">Order Printing In <span class="gradient-text">Qatar</span></h1>
+        <p class="section-subtitle">
+          Browse our standard product catalog below. Click any product to launch a prefilled WhatsApp order with instant production scheduling.
+        </p>
+
+        <!-- Search Bar -->
+        <div style="max-width: 500px; margin: 30px auto 0 auto; position: relative;">
+          <input type="text" id="storeSearchInput" class="customizer-input" placeholder="🔍 Search products (e.g. business cards, boxes, t-shirts)..." style="padding-left: 20px; font-size: 1rem; border-radius: var(--radius-full);">
+        </div>
+      </div>
+
+      <!-- Store Grid -->
+      <div class="services-grid" id="storeProductGrid" style="margin-top: 50px;">
+        <!-- Product 1 -->
+        <article class="service-card reveal" data-name="Business Cards Velvet Spot UV Gold Foil">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </div>
+          <h3 class="service-title">Velvet Business Cards</h3>
+          <p class="service-desc">Double-sided soft-touch velvet lamination with raised spot gloss UV. Standard size 90 x 54 mm.</p>
+          <ul class="service-specs-list">
+            <li>✓ 450 GSM Heavy Board</li>
+            <li>✓ Minimum run: 250 units</li>
+            <li>✓ Starting at QAR 190</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>Ready in 24h</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20Velvet%20Soft-Touch%20Business%20Cards." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="service-card magenta reveal" data-name="Magnetic Gift Boxes Rigid Packaging">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3 class="service-title">Rigid Magnetic Gift Boxes</h3>
+          <p class="service-desc">Custom luxury rigid boxes with hidden magnetic catch, hot-foil logo, and EVA foam or satin interior.</p>
+          <ul class="service-specs-list">
+            <li>✓ Custom size & die-cut tooling</li>
+            <li>✓ Perfume, jewelry & VIP gifts</li>
+            <li>✓ From QAR 350 / batch</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>Custom Turnaround</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20Custom%20Rigid%20Magnetic%20Boxes." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="service-card reveal" data-name="Brochures Trifold Flyers Catalogs">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 class="service-title">A4 Trifold Flyers & Menus</h3>
+          <p class="service-desc">Full-color high-speed offset flyers on 150 GSM gloss or 300 GSM matte art card with precision score & fold.</p>
+          <ul class="service-specs-list">
+            <li>✓ 1000 units minimum</li>
+            <li>✓ Crisp CMYK offset</li>
+            <li>✓ Starting at QAR 280</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>2 Days</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20A4%20Trifold%20Flyers." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="service-card magenta reveal" data-name="DTF Printed T-Shirts Polos Uniforms">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+          </div>
+          <h3 class="service-title">Corporate DTF Polo & T-Shirts</h3>
+          <p class="service-desc">100% breathable premium cotton shirts with multi-color DTF prints or embroidery on chest, back, and sleeve.</p>
+          <ul class="service-specs-list">
+            <li>✓ High wash resistance</li>
+            <li>✓ Sizes XS to 4XL</li>
+            <li>✓ Starting at QAR 35 / shirt</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>3 Days</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20DTF%20Custom%20T-Shirts%20and%20Polos." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 5 -->
+        <article class="service-card gold reveal" data-name="Roll-Up Pop-Up Exhibition Banners">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+          <h3 class="service-title">Deluxe Roll-Up Stand Banner</h3>
+          <p class="service-desc">Heavy aluminum base 85 x 200 cm with tear-resistant anti-curl synthetic media and padded carry bag.</p>
+          <ul class="service-specs-list">
+            <li>✓ Photographic 1440 DPI</li>
+            <li>✓ Ready same-day / 24h</li>
+            <li>✓ Starting at QAR 160</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>⚡ Same Day Available</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20Roll-Up%20Banners." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 6 -->
+        <article class="service-card reveal" data-name="Rubber Stamps Self Inking Trodat">
+          <div class="service-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+          </div>
+          <h3 class="service-title">Self-Inking Rubber Stamps</h3>
+          <p class="service-desc">Original Trodat / Colop self-inking company stamps, signature stamps, and dater stamps with laser-engraved rubber.</p>
+          <ul class="service-specs-list">
+            <li>✓ Blue, Black, Red or Green ink</li>
+            <li>✓ Commercial registration approved</li>
+            <li>✓ Starting at QAR 90</li>
+          </ul>
+          <div class="service-footer">
+            <div class="turnaround-tag"><span>Ready in 2 Hours</span></div>
+            <a class="btn btn-whatsapp" style="padding: 8px 18px; font-size: 0.85rem;" href="https://wa.me/97470283355?text=Hello%20Premadasa!%20I%20want%20to%20order%20Self-Inking%20Rubber%20Stamps." target="_blank" rel="noopener">
+              <span>Order via WhatsApp</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" style="margin-top: 100px;">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Premadasa Print Solutions. Abu Hamour, Salwa Road, Qatar.</div>
+        <div style="display: flex; gap: 20px;">
+          <a href="index.html" style="color: var(--cmyk-cyan); text-decoration: none;">Main Website ←</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Live Search Filter for Store
+    const searchInput = document.getElementById("storeSearchInput");
+    const productCards = document.querySelectorAll("#storeProductGrid .service-card");
+
+    if (searchInput) {
+      searchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        productCards.forEach((card) => {
+          const text = (card.getAttribute("data-name") || "").toLowerCase() + card.innerText.toLowerCase();
+          if (!query || text.includes(query)) {
+            card.style.display = "flex";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    }
+  </script>
+</body>
+</html>
+
